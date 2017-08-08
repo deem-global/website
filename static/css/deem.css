@@ -1,0 +1,29 @@
+#header,
+#footer {
+  background: #0040c1;
+}
+
+#header .image.avatar,
+#header .image.avatar img {
+  border-radius: 0;
+  width: 200px;
+  height: 90px;
+}
+
+#sidebar a,
+#sidebar a:visited,
+#sidebar ul li a,
+#sidebar ul li a:visited,
+#footer .icons a,
+#footer .icons a:visited {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#sidebar a:hover,
+#sidebar a:hover:visited,
+#sidebar ul li a:hover,
+#sidebar ul li a:hover:visited,
+#footer .icons a:hover,
+#footer .icons a:hover:visited {
+  color: white !important;
+}
