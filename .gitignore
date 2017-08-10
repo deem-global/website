@@ -1,4 +1,4 @@
-# Global
+# global
 #
 *.DS_Store
 *.log
@@ -8,3 +8,6 @@
 # node.js
 #
 node_modules/
+
+# site
+public/
