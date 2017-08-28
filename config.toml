@@ -1,5 +1,6 @@
 baseURL = "http://deemglobal.com/"
 languageCode = "en-us"
+publishDir = "docs"
 title = "Deem Global"
 theme = "hugo-strata-theme"
 
