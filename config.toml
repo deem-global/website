@@ -1,4 +1,4 @@
-baseURL = "http://deemglobal.com/"
+baseURL = "https://deem-global.github.io/website/"
 languageCode = "en-us"
 publishDir = "docs"
 title = "Deem Global"
