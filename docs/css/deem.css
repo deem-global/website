@@ -12,10 +12,39 @@ img {
  * Header, footer, sidebar
  */
 
+#header {
+  position: relative;
+  z-index: 100;
+  float: left;
+}
+@media screen and (max-width: 980px) {
+  #header {
+    float: none;
+  }
+}
+
+#footer {
+  top: 0;
+  z-index: 10;
+}
+
+#footer .footer-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0 4em 6em 0;
+}
+@media screen and (max-width: 980px) {
+  #footer .footer-content {
+    position: relative;
+    padding: 0;
+  }
+}
+
 #header,
 #footer {
   background: #0040c1;
-  z-index: 10;
 }
 
 #header .content,
@@ -52,6 +81,16 @@ img {
 
 #header h1 {
   font-size: 1em;
+}
+
+#main {
+  float: left;
+  margin-left: 0;
+}
+@media screen and (max-width: 980px) {
+  #main {
+    float: none;
+  }
 }
 
 
